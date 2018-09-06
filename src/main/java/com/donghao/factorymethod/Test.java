@@ -1,13 +1,16 @@
 package com.donghao.factorymethod;
 
+/**
+ * Created by geely
+ */
 public class Test {
-
     public static void main(String[] args) {
-
-        RoujiamoFactory roujiamoFactory = new DogRoujiamoFactory();
-        RoujiamoFactory roujiamoFactory1 = new HourseRoujiamoFactory();
-        Roujiamo roujiamo = roujiamoFactory.getRoujiamo();
-        roujiamo.produce();
+        VideoFactory videoFactory = new PythonVideoFactory();
+        VideoFactory videoFactory2 = new JavaVideoFactory();
+        VideoFactory videoFactory3 = new FEVideoFactory();
+        Video video = videoFactory.getVideo();
+        video.produce();
 
     }
+
 }
