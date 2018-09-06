@@ -7,6 +7,6 @@ public class Test {
     RoujiamoFactory roujiamoFactory = new RoujiamoFactory();
     Roujiamo roujiamo = roujiamoFactory.getRoujiamo("dog");
     roujiamo.produce();
-    
+
     }
 }
