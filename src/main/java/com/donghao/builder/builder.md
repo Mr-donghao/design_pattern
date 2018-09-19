@@ -10,7 +10,7 @@
 ## 2.模式原理
 **UML类图**
 
-![建造者类图](Builder Class diagram.png)
+![建造者类图](https://github.com/Mr-donghao/design_pattern/blob/master/src/main/java/com/donghao/builder/Builder%20Class%20diagram.png)
 
 电脑城老板（Diretor）和客户（Client）进行需求沟通（买来打游戏？学习？看片？）
 了解需求后，电脑城老板将小成需要的主机划分为各个部件（Builder）的建造请求（CPU、主板）
