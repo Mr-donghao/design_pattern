@@ -1,0 +1,32 @@
+@startuml
+Meal <.. Me
+Restaurant o-- Meituan
+DeliverMan o-- Meituan
+PayService o-- Meituan
+Meituan <.. Me
+
+
+class Meal{
+	String name
+	Meal(name)
+}
+
+class Restaurant{
+	String Meal(meal)
+}
+
+class DeliverMan{
+	void deliverMeal(meal)
+}
+class PayService{
+	pay()
+}
+class Meituan{
+	orderFood(meal)
+}
+
+class Me{
+	main(Meal meal)
+}
+
+@enduml
